@@ -11,5 +11,7 @@ namespace Practice2.Models
         public DateTime StartDate { get; set; }
         public string Department { get; set; }
         public string Location { get; set; }
+        public string Title { get; set; }
+
     }
 }

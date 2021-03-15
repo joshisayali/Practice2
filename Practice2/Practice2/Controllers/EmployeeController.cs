@@ -14,6 +14,7 @@ namespace Practice2.Controllers
             Employee emp = new Employee();
             emp.Name = "John Doe";
             emp.Department = "Engineering";
+            emp.Location = "MOH";
             return View(emp);
         }
     }
